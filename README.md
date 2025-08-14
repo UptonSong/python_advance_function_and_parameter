@@ -1,0 +1,2 @@
+# python_advance_function_and_parameter
+進階使用Python_function的練習
