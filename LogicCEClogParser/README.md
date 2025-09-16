@@ -31,3 +31,24 @@ para2.append(YYY)  <<< 在para2 後面再接一個內容
 最後把groups 用writer.writerow([i, time, text_block])寫到新的csv檔裡
 
 然後再開啟儲存位置的資料夾
+
+最後如果要打包成 exe
+
+基本指令：
+
+pyinstaller --onefile parsing_csv_file2.py
+
+
+這樣會在 dist 資料夾裡產生一個 parsing_csv_file2.exe。
+
+4️⃣ 如果你要有自己的 icon（選擇性）
+pyinstaller --onefile --icon=youricon.ico parsing_csv_file2.py
+
+5️⃣ 避免跳出黑色的命令視窗（建議）
+
+因為你有用到 tkinter UI，所以最好加上 --noconsole：
+
+pyinstaller --onefile --noconsole parsing_csv_file2.py
+
+
+這樣 .exe 會只跑 GUI，不會彈出命令提示視窗。
