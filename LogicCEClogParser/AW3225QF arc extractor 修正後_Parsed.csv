@@ -1,0 +1,357 @@
+Group,Time,Details
+1,0.115820500000000,"Start Sequence
+Header SRC='5' (0x5) (AudioSystem)
+ DST='15' (0xF) (Unreg/Bcast)
+End of Message = 0
+Acknowledgment = 0
+Opcode '132' (0x84) (ReportPhysicalAddress)
+End of Message = 0
+Acknowledgment = 0
+End of Message = 0
+Acknowledgment = 0
+End of Message = 0
+Acknowledgment = 0
+End of Message = 1
+Acknowledgment = 0"
+2,0.253999500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='5' (0x5) (AudioSystem)
+End of Message = 0
+Acknowledgment = 1
+Opcode } (0x7D) (GiveSystemAudioModeStatus)
+End of Message = 1
+Acknowledgment = 1"
+3,0.315267000000000,"Start Sequence
+Header SRC='5' (0x5) (AudioSystem)
+ DST='0' (0x0) (TV)
+End of Message = 0
+Acknowledgment = 1
+Opcode r (0x72) (SetSystemAudioMode)
+End of Message = 0
+Acknowledgment = 1
+End of Message = 1
+Acknowledgment = 1"
+4,0.405294500000000,"Start Sequence
+Header SRC='5' (0x5) (AudioSystem)
+ DST='15' (0xF) (Unreg/Bcast)
+End of Message = 0
+Acknowledgment = 0
+Opcode r (0x72) (SetSystemAudioMode)
+End of Message = 0
+Acknowledgment = 0
+End of Message = 1
+Acknowledgment = 0"
+5,0.495322000000000,"Start Sequence
+Header SRC='5' (0x5) (AudioSystem)
+ DST='0' (0x0) (TV)
+End of Message = 0
+Acknowledgment = 1
+Opcode '143' (0x8F) (GiveDevicePowerStatus)
+End of Message = 1
+Acknowledgment = 1"
+6,0.560148000000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='5' (0x5) (AudioSystem)
+End of Message = 0
+Acknowledgment = 1
+Opcode '144' (0x90) (ReportPowerStatus)
+End of Message = 0
+Acknowledgment = 1
+End of Message = 1
+Acknowledgment = 1"
+7,0.645362500000000,"Start Sequence
+Header SRC='5' (0x5) (AudioSystem)
+ DST='0' (0x0) (TV)
+End of Message = 0
+Acknowledgment = 1
+Opcode '192' (0xC0) (Invalid)
+End of Message = 1
+Acknowledgment = 1"
+8,0.710187500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='5' (0x5) (AudioSystem)
+End of Message = 0
+Acknowledgment = 1
+Opcode '193' (0xC1) (Invalid)
+End of Message = 1
+Acknowledgment = 1"
+9,1.135587500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='5' (0x5) (AudioSystem)
+End of Message = 0
+Acknowledgment = 1
+Opcode '143' (0x8F) (GiveDevicePowerStatus)
+End of Message = 1
+Acknowledgment = 1"
+10,1.195469000000000,"Start Sequence
+Header SRC='5' (0x5) (AudioSystem)
+ DST='0' (0x0) (TV)
+End of Message = 0
+Acknowledgment = 1
+Opcode '144' (0x90) (ReportPowerStatus)
+End of Message = 0
+Acknowledgment = 1
+End of Message = 1
+Acknowledgment = 1"
+11,2.135864500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='5' (0x5) (AudioSystem)
+End of Message = 0
+Acknowledgment = 1
+Opcode F (0x46) (GiveOsdName)
+End of Message = 1
+Acknowledgment = 1"
+12,2.195832500000000,"Start Sequence
+Header SRC='5' (0x5) (AudioSystem)
+ DST='0' (0x0) (TV)
+End of Message = 0
+Acknowledgment = 1
+Opcode G (0x47) (SetOsdName)
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 1
+Acknowledgment = 1"
+13,3.136606500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='1' (0x1) (Recorder1)
+End of Message = 1
+Acknowledgment = 0"
+14,3.172081500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='1' (0x1) (Recorder1)
+End of Message = 1
+Acknowledgment = 0"
+15,5.112894000000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='2' (0x2) (Recorder2)
+End of Message = 1
+Acknowledgment = 0"
+16,5.148347500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='2' (0x2) (Recorder2)
+End of Message = 1
+Acknowledgment = 0"
+17,6.112740000000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='5' (0x5) (AudioSystem)
+End of Message = 0
+Acknowledgment = 1
+Opcode '164' (0xA4) (Invalid)
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 1
+Acknowledgment = 1"
+18,7.113233500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='5' (0x5) (AudioSystem)
+End of Message = 0
+Acknowledgment = 1
+Opcode '164' (0xA4) (Invalid)
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 1
+Acknowledgment = 1"
+19,8.113708000000001,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='5' (0x5) (AudioSystem)
+End of Message = 0
+Acknowledgment = 1
+Opcode '164' (0xA4) (Invalid)
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 1
+Acknowledgment = 1"
+20,9.113727500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='5' (0x5) (AudioSystem)
+End of Message = 0
+Acknowledgment = 1
+Opcode '164' (0xA4) (Invalid)
+End of Message = 0
+Acknowledgment = 1
+End of Message = 0
+Acknowledgment = 1
+End of Message = 1
+Acknowledgment = 1"
+21,10.114098000000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='3' (0x3) (Tuner1)
+End of Message = 1
+Acknowledgment = 0"
+22,10.149550000000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='3' (0x3) (Tuner1)
+End of Message = 1
+Acknowledgment = 0"
+23,11.114540500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='4' (0x4) (Player1)
+End of Message = 1
+Acknowledgment = 0"
+24,11.149993500000001,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='4' (0x4) (Player1)
+End of Message = 1
+Acknowledgment = 0"
+25,11.232902500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='5' (0x5) (AudioSystem)
+End of Message = 0
+Acknowledgment = 1
+Opcode '194' (0xC2) (Invalid)
+End of Message = 1
+Acknowledgment = 1"
+26,12.028549000000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='5' (0x5) (AudioSystem)
+End of Message = 0
+Acknowledgment = 1
+Opcode '195' (0xC3) (Invalid)
+End of Message = 1
+Acknowledgment = 1"
+27,12.088792500000000,"Start Sequence
+Header SRC='5' (0x5) (AudioSystem)
+ DST='0' (0x0) (TV)
+End of Message = 0
+Acknowledgment = 1
+Opcode '192' (0xC0) (Invalid)
+End of Message = 1
+Acknowledgment = 1"
+28,12.646807500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='5' (0x5) (AudioSystem)
+End of Message = 0
+Acknowledgment = 1
+Opcode '193' (0xC1) (Invalid)
+End of Message = 1
+Acknowledgment = 1"
+29,12.716927999999999,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='6' (0x6) (Tuner2)
+End of Message = 1
+Acknowledgment = 0"
+30,12.752352000000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='6' (0x6) (Tuner2)
+End of Message = 1
+Acknowledgment = 0"
+31,13.120751500000001,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='7' (0x7) (Tuner3)
+End of Message = 1
+Acknowledgment = 0"
+32,13.156224999999999,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='7' (0x7) (Tuner3)
+End of Message = 1
+Acknowledgment = 0"
+33,14.121043999999999,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='8' (0x8) (Player2)
+End of Message = 1
+Acknowledgment = 0"
+34,14.156482499999999,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='8' (0x8) (Player2)
+End of Message = 1
+Acknowledgment = 0"
+35,15.900015000000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST=\t (0x9) (Recorder3)
+End of Message = 1
+Acknowledgment = 0"
+36,15.935483500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST=\t (0x9) (Recorder3)
+End of Message = 1
+Acknowledgment = 0"
+37,16.901524500000001,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST=\n (0xA) (Tuner4)
+End of Message = 1
+Acknowledgment = 0"
+38,16.936976500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST=\n (0xA) (Tuner4)
+End of Message = 1
+Acknowledgment = 0"
+39,17.901154500000001,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='11' (0xB) (Player3)
+End of Message = 1
+Acknowledgment = 0"
+40,17.936602000000001,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='11' (0xB) (Player3)
+End of Message = 1
+Acknowledgment = 0"
+41,18.901277499999999,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='12' (0xC) (Reserved1)
+End of Message = 1
+Acknowledgment = 0"
+42,18.936731000000002,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='12' (0xC) (Reserved1)
+End of Message = 1
+Acknowledgment = 0"
+43,19.179746500000000,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='15' (0xF) (Unreg/Bcast)
+End of Message = 0
+Acknowledgment = 0
+Opcode '130' (0x82) (ActiveSource)
+End of Message = 0
+Acknowledgment = 0
+End of Message = 0
+Acknowledgment = 0
+End of Message = 1
+Acknowledgment = 0"
+44,19.901023500000001,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST=\r (0xD) (Reserved2)
+End of Message = 1
+Acknowledgment = 0"
+45,19.936488000000001,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST=\r (0xD) (Reserved2)
+End of Message = 1
+Acknowledgment = 0"
+46,21.959214500000002,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='14' (0xE) (FreeUse)
+End of Message = 1
+Acknowledgment = 0"
+47,21.994642500000001,"Start Sequence
+Header SRC='0' (0x0) (TV)
+ DST='14' (0xE) (FreeUse)
+End of Message = 1
+Acknowledgment = 0"
